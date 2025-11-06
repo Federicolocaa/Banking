@@ -7,10 +7,10 @@ public class BankAccountImpl implements BankAccount {
     private final String iban;
     private double balance;
 
-    public BankAccountImpl(final String iban, double initialbalance){
-         if (initialbalance < 0) { throw new IllegalArgumentException("Bilancio < di 0!");}
+    public BankAccountImpl(final String iban, double initialBalance){
+         if (initialBalance < 0) { throw new IllegalArgumentException("Bilancio < di 0!");}
         this.iban = iban;
-        this.balance = initialbalance;
+        this.balance = initialBalance;
     }
 
     @Override
