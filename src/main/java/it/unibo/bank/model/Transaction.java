@@ -1,3 +1,5 @@
+package it.unibo.bank.model;
+
 public class Transaction {
     
     private final String description;
